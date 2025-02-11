@@ -1,7 +1,7 @@
 Summary:	An InfiniMiner/Minecraft inspired game
 Name:		luanti
 Version:	5.10.0
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Games/Other
 Url:		https://luanti.org
