@@ -93,4 +93,4 @@ experience Minecraft.
 #----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n minetest-%{version}
+%autosetup -p1 -n %{name}-%{version}
