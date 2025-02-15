@@ -1,20 +1,21 @@
-Summary:	An InfiniMiner/Minecraft inspired game
+Summary:	An InfiniMiner/Minecraft inspired game engine
 Name:		luanti
-Version:	5.10.0
-Release:	3
+Version:	5.11.0
+Release:	1
 License:	GPLv2+
 Group:		Games/Other
 Url:		https://luanti.org
 
-Source0:	https://github.com/minetest/minetest/archive/refs/tags/%{version}.tar.gz
+Source0:	https://github.com/luanti-org/luanti/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake
 BuildRequires:	xinput
 BuildRequires:	gmp-devel
-BuildRequires:	bzip2-devel
+BuildRequires:	pkgconfig(bzip2)
 BuildRequires:	gettext-devel
+# Upstream bundling own fork
 #BuildRequires:	irrlicht-devel
-BuildRequires:	jpeg-devel
+BuildRequires:	pkgconfig(libjpeg)
 BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
