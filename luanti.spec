@@ -1,6 +1,6 @@
 Summary:	An InfiniMiner/Minecraft inspired game engine
 Name:		luanti
-Version:	5.11.0
+Version:	5.12.0
 Release:	1
 License:	GPLv2+
 Group:		Games/Other
