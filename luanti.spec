@@ -81,8 +81,8 @@ experience Minecraft.
 %{_bindir}/%{name}
 %{_bindir}/minetest
 %{_datadir}/%{name}
-#{_datadir}/metainfo/net.minetest.minetest.metainfo.xml
-#{_datadir}/applications/net.minetest.minetest.desktop
+%{_datadir}/metainfo/org.luanti.luanti.metainfo.xml
+%{_datadir}/applications/org.luanti.luanti.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}*
 %{_mandir}/man6/%{name}.6*
 
