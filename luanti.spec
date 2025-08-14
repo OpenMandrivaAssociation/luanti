@@ -76,7 +76,6 @@ experience Minecraft.
 
 %files -f %{name}.lang
 %doc doc/*.txt doc/*.md
-#{_datadir}/doc/%{name}/README.md
 %{_datadir}/doc/%{name}/minetest.conf.example
 %{_bindir}/%{name}
 %{_bindir}/minetest
