@@ -1,12 +1,12 @@
 Summary:	An InfiniMiner/Minecraft inspired game engine
 Name:		luanti
-Version:	5.18.0.rc1
+Version:	5.18.0
 Release:	1
 License:	GPLv2+
 Group:		Games/Other
 Url:		https://luanti.org
 
-Source0:	https://github.com/luanti-org/luanti/archive/5.18.0-rc1/%{name}-5.18.0-rc1.tar.gz
+Source0:	https://github.com/luanti-org/luanti/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake
 BuildRequires:	xinput
@@ -94,4 +94,4 @@ experience Minecraft.
 #----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{name}-5.18.0-rc1
+%autosetup -p1 -n %{name}-%{version}
